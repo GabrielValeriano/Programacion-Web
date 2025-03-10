@@ -1,0 +1,27 @@
+/*hoja de estilos css1*/
+
+/* tres selectores*/
+
+/*selector por etiqueta*/
+
+p h2 {
+    color: green;
+}
+
+.contenedor{
+    color:black; 
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 50px; /* espacio del elemento hacia los bordes */
+    margin: 100px;
+    border-radius: 110px;
+    width: 200px;
+    height: 200px;
+     
+}
+.contenedor-bordes{
+
+} 

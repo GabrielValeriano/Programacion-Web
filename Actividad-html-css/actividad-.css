@@ -1,0 +1,22 @@
+.contenedor{
+    color:black; 
+    background-color: rgb(52, 55, 58);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid rgb(59, 53, 53);
+    padding: 50px; /* espacio del elemento hacia los bordes */
+    margin: 100px;
+    border-radius: 60px;
+    width: 800px;
+    height: 380px;
+        
+}
+
+
+.foto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 320px;
+}
