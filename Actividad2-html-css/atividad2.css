@@ -1,0 +1,25 @@
+.cuadrado {
+  display: flex;
+  width: 400px;
+  height: 450px;
+  justify-content: center;
+  background-color: #285d9b;
+  gap: 10px;
+}
+.conteiner-info2 {
+  display: flex;
+  flex-direction: column; /*modifica el comportamiento por default de flex*/
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 40px;
+  color: rgb(64, 125, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
