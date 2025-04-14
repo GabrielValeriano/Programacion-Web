@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-image: url("https://www.rionegro.com.ar/wp-content/uploads/2025/01/Lionel-Messi.jpg");
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: auto;
+    gap: 10px;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    cursor: pointer; /*cambia el cursor por la mano */
+}
+
+
+
+
+.new{
+    background-color: blue;
+}
+
+.new2{
+    background-color: brown;
+}
+
+.new3{
+    background-color: darkgray;
+}
+
+/*Nosindica cuando va haber un cambio de tamaño en las clases*/
+
+@media (max-width: 760px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
