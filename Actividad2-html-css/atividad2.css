@@ -1,60 +1,24 @@
-.cuadrado2 {
-  display: flex;
-  width: 350px;
-  height: 420px;
-  justify-content: center;
-  background-color: #2887be;
-  gap: 10px;
-  margin-block-start: 6em;
-}
-
-
-
-.conteiner-info2 {
-  display: flex;
-  flex-direction: column; /*modifica el comportamiento por default de flex*/
-  justify-content:inherit;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: space-around;
-}
-h1 {
-  font-size: 40px;
-  color: rgb(123, 208, 223);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-}
 
 body{
+  text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-
-}
-.inp{
-  width: 270px;
-  height: 35px;
-  margin-block-start: -4em;
-  margin-block-end: 1em;
 }
 
-.log{
+
+.box{
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.container{
   display: flex;
-  width: 278px;
-  height: 35px;
-  justify-content: center;
-  background-color: rgb(140, 203, 214);
-  margin-block-start: -3.5em;
-  margin-block-end: 5em;
-
+  flex-direction: column; /*sin flex direction align items no funciona*/
+  align-items: center;
+  padding: 20px;
 }
-a{
-  display: flex;
-  justify-content: center;
-  margin-block-start: -4.5em;
-  margin-block-end: 1.5em;
-
-}
-
 
 /*hola*/
