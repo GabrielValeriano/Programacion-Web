@@ -60,3 +60,39 @@ for (let nume = 0; nume <= 4; nume++) {
     console.log(`Número: ${suma}`)
 }
 
+//Sumar solamente los números pares (2, 4, 6, 8, 10).
+
+let suma2 = 0
+
+for (let nume = 0; nume <= 10; nume++) {
+    if (nume%2 === 0){
+      suma2+=nume
+      console.log(`Número: ${suma2}`)}
+}
+
+//Usar un for para recorrer los números del 1 al 20.
+
+for (let nume = 1; nume <= 20; nume++) {
+    console.log(`Número: ${nume}`)
+}
+
+//Sumar los números que sean múltiplos de 3
+
+let suma3 = 0
+
+for (let nume = 0; nume <= 20; nume++) {
+    if (nume%3 === 0){
+      suma3+=nume
+      console.log(`Número: ${suma3}`)}
+}
+
+//Pero si el número también es múltiplo de 5, no lo sumes.
+
+let suma4 = 0 
+
+for (let nume = 0; nume <= 20; nume++){
+    if (nume%3 === 0 || nume%5 !== 0){
+        suma4+=nume
+        console.log(`Numero: ${suma4}`)
+    }
+}
