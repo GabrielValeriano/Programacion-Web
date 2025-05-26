@@ -1,5 +1,4 @@
-
-body{
+body {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -7,14 +6,16 @@ body{
   justify-content: center;
 }
 
-
-.box{
+.box {
   border: 1px solid black;
   border-radius: 10px;
   max-width: 400px;
+  width: 300px;
+  height: 400px;
+  margin-top: 105px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column; /*sin flex direction align items no funciona*/
   align-items: center;
